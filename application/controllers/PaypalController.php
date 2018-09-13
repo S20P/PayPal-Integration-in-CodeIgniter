@@ -14,7 +14,6 @@ class PaypalController extends CI_Controller {
     function success(){
         // Get the transaction data
         $paypalInfo = $this->input->get();
-
         $data['item_name']      = $paypalInfo['item_name'];
         $data['item_number']    = $paypalInfo['item_number'];
         $data['txn_id']         = $paypalInfo["tx"];
