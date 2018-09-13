@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue;
+}
+
+.btn {
+    background: #3b5998;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 5px 10px;
+    display: inline-block;
+    position: static;
+    border-color: #4966a6;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #213A6F
+}
